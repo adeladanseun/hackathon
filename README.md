@@ -1,15 +1,17 @@
-# GridMinds - Smart Grid Voltage Monitor & Protection System
+# SparkSync - Smart Grid Voltage Monitor & Protection System
+
+**Developed by Team GridMinds**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/platform-Raspberry%20Pi%20Pico-brightgreen)](https://www.raspberrypi.com/products/raspberry-pi-pico/)
 
 ## 📋 Overview
 
-GridMinds is an intelligent voltage monitoring and protection system designed for the Raspberry Pi Pico. It simulates real-world grid voltage monitoring using a potentiometer as an input source, with automatic load disconnection during unsafe voltage conditions (overvoltage/undervoltage). The system provides visual feedback via an onboard LED and controls a relay to protect connected equipment.
+**SparkSync** is an intelligent voltage monitoring and protection system designed by **Team GridMinds** for the Raspberry Pi Pico. It simulates real-world grid voltage monitoring using a potentiometer as an input source, with automatic load disconnection during unsafe voltage conditions (overvoltage/undervoltage). The system provides visual feedback via an onboard LED and controls a relay to protect connected equipment.
 
 ## 🎯 Use Case
 
-This system is ideal for:
+SparkSync is ideal for:
 - **Educational demonstrations** of grid protection mechanisms
 - **Testing environments** where real grid voltages need simulation
 - **Prototype development** for industrial voltage monitoring systems
@@ -35,7 +37,7 @@ This system is ideal for:
 
 ## 📊 Voltage Standards
 
-The system is pre-configured for UK/EU/AU grid standards (230V +10%/-6%):
+SparkSync is pre-configured for UK/EU/AU grid standards (230V +10%/-6%):
 
 - **Maximum safe voltage**: 224V (trips above this)
 - **Minimum safe voltage**: 216V (trips below this)
